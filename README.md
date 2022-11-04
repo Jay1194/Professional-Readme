@@ -1,17 +1,17 @@
-# awef
+# qs
 
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
   * [License](#license)
   * [Usage](#usage)   
-  * [Questions/Inquiries](#Questions/Inquiries)
+  * [Questions](#Questions)
 
   # Description
-
+sq
 
 # Installation
-fdsg
+
 
 # Licenses
 MIT
@@ -22,19 +22,19 @@ undefined
 # Questions
 
 # Motive
-
+sq
 
 # Problem Solving
-
+sq
 
 # Contributing
 undefined
 
  # Github
-
+wsdq
 
 # Email
-efwfef
+swq
 
 
   

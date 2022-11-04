@@ -1,20 +1,20 @@
 
 function renderLicenseBadge(license) {
 
-  if (license === 'MIT') {
+  if (license === MIT) {
     return `[![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
    } 
-   else if (license === 'Apache') {
-    return `[![license](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+   else if (license === Apache) {
+    return `[![license: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
    } 
 }
 function renderLicenseLink(license) {
 
-  if (license === 'MIT') {
+  if (license === MIT) {
     return `[license: MIT](https://opensource.org/licenses/MIT)`;
   }
-   if (license === 'Apache') {
-    return `[license: MIT](https://opensource.org/licenses/Apache-2.0)`;
+   if (license === Apache) {
+    return `[license: Apache (https://opensource.org/licenses/Apache-2.0)`;
    }
 }
 function renderLicenseSection(license) {
@@ -31,7 +31,7 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [License](#license)
   * [Usage](#usage)   
-  * [Questions/Inquiries](#Questions/Inquiries)
+  * [Questions](#Questions)
 
   # Description
 ${data.description}
