@@ -2,33 +2,68 @@
 function renderLicenseBadge(license) {
 
   if (license === 'MIT') {
-    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+    return `[![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
    } 
    else if (license === 'Apache') {
-    return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+    return `[![license](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
    } 
-   else return "";
 }
 function renderLicenseLink(license) {
 
   if (license === 'MIT') {
-    return `[License: MIT](https://opensource.org/licenses/MIT)`;
+    return `[license: MIT](https://opensource.org/licenses/MIT)`;
   }
-  else if (license === 'Apache 2.0') {
-    return `[License: MIT](https://opensource.org/licenses/Apache-2.0)`;
+   if (license === 'Apache') {
+    return `[license: MIT](https://opensource.org/licenses/Apache-2.0)`;
    }
-   else return "";
 }
 function renderLicenseSection(license) {
   if(license !=="None"){
-    return `* [License](#license)`
+    return `* [license](#license)`
   }
-  return ''
+  return "None"
 }
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-`;
-}
 
-module.exports = generateMarkdown;
+  ## Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [License](#license)
+  * [Usage](#usage)   
+  * [Questions/Inquiries](#Questions/Inquiries)
+
+  # Description
+${data.description}
+
+# Installation
+${data.installation}
+
+# Licenses
+${data.licenses}
+
+# Usage
+${data.why}
+
+# Questions
+
+# Motive
+${data.motive}
+
+# Problem Solving
+${data.problem}
+
+# Contributing
+${data.contributing}
+
+ # Github
+${data.github}
+
+# Email
+${data.email}
+
+
+  `;
+  }
+
+  module.exports = generateMarkdown;

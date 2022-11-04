@@ -20,7 +20,11 @@ const questions = [
         type:"input",
         message:"What is the title of your project?",
     },
-   
+    {
+        name:"Contributing",
+        type:"input",
+        message:"Who are the contributors of the project?",
+    },
     {
         name:"description",
         type:"input",
@@ -31,11 +35,7 @@ const questions = [
         type:"input",
         message:"What was your motivation?",
     },
-    {
-        name:"why", 
-        type:"input",
-        message:"Why did you build this project?",
-    },
+    
     {
         name:"problem", 
         type:"input",
