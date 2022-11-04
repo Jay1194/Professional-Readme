@@ -50,7 +50,7 @@ const questions = [
         name:"licenses", 
         type:"input",
         message:"What type of license(s) was chosen for your project?",
-        choices:["MIT", "APACHE", "GPL", "None"]
+        choices:["MIT", "APACHE", "None"]
     },
     {
         name:"installation", 
