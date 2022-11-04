@@ -40,7 +40,7 @@ ${data.description}
 ${data.installation}
 
 # Licenses
-${data.licenses}
+${data.license}
 
 # Usage
 ${data.why}

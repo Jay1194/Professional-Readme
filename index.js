@@ -47,9 +47,9 @@ const questions = [
         message:"What did you learn?",
     },
     {
-        name:"licenses", 
+        name:"license", 
         type:"input",
-        message:"What type of license(s) was chosen for your project?",
+        message:"What type of license(choices) was chosen for your project?",
         choices:["MIT", "APACHE", "None"]
     },
     {
