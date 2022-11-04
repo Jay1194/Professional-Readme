@@ -1,4 +1,4 @@
-# qs
+# Find my dog
 
   ## Table of Contents
   * [Description](#description)
@@ -8,10 +8,10 @@
   * [Questions](#Questions)
 
   # Description
-sq
+Dog Tracker APp
 
 # Installation
-
+JJ
 
 # Licenses
 MIT
@@ -22,19 +22,19 @@ undefined
 # Questions
 
 # Motive
-sq
+lost my dog and he never came back
 
 # Problem Solving
-sq
+find your lost dog
 
 # Contributing
 undefined
 
  # Github
-wsdq
+JAy1194
 
 # Email
-swq
+t.jaydentaylor@gmail.com
 
 
   

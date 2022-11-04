@@ -1,24 +1,25 @@
 
-function renderLicenseBadge(license) {
+function renderLicenseBadge(data) {
 
-  if (license === MIT) {
-    return `[![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+  if (data.license === 'MIT') {
+    return `[![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]`
    } 
-   else if (license === Apache) {
-    return `[![license: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+   else if (data.license === 'Apache') {
+    return `[![license: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]`
    } 
 }
-function renderLicenseLink(license) {
+function renderLicenseLink(data) {
 
-  if (license === MIT) {
-    return `[license: MIT](https://opensource.org/licenses/MIT)`;
+  if (data.license === 'MIT') {
+    return "[license: MIT](https://opensource.org/licenses/MIT)";
   }
-   if (license === Apache) {
-    return `[license: Apache (https://opensource.org/licenses/Apache-2.0)`;
+   if (data.license === Apache) {
+    return "[license: Apache (https://opensource.org/licenses/Apache-2.0)";
    }
 }
-function renderLicenseSection(license) {
-  if(license !=="None"){
+
+function renderLicenseSection(data) {
+  if(data.license !=="None"){
     return `* [license](#license)`
   }
   return "None"
