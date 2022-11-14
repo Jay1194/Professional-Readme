@@ -1,4 +1,4 @@
-# Find my dog
+# E-Commerce-Backend
 
   ## Table of Contents
   * [Description](#description)
@@ -8,13 +8,13 @@
   * [Questions](#Questions)
 
   # Description
-Dog Tracker APp
+to build the back end for an e-commerce site. You’ll take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
 
 # Installation
-JJ
+contact Jay1194@github.com
 
 # Licenses
-MIT
+None
 
 # Usage
 undefined
@@ -22,19 +22,19 @@ undefined
 # Questions
 
 # Motive
-lost my dog and he never came back
+Internet retail, also known as e-commerce, is the largest sector of the electronics industry, having generated an estimated US$29 trillion in 2017 (Source: United Nations Conference on Trade and Development). E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to the prevalence of these platforms, developers should understand the fundamental architecture of e-commerce sites.
 
 # Problem Solving
-find your lost dog
+
 
 # Contributing
 undefined
 
  # Github
-JAy1194
+Jay1194
 
 # Email
-t.jaydentaylor@gmail.com
+Jay1194@github.com
 
 
   
